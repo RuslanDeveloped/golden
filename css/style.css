@@ -1,0 +1,220 @@
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+
+  color: #333;
+
+  margin: 0;
+}
+
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+
+
+
+.container {
+  width: 100%;
+  max-width: 1320px;
+
+  margin: 0 auto;
+}
+
+
+.header {
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  background: #F5F5F5;
+}
+
+.header_menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-icon {
+  position: absolute;
+  top: 0;
+  left: -50px;
+  z-index: 11;
+}
+
+.header__inner {
+  position: relative;
+}
+
+.header__inner p {
+  font-size: 17px;
+  margin: 0;
+  color: #000000;
+}
+
+/*============================================================================================================
+=                                     GROUP
+=
+==============================================================================================================*/
+
+.group {
+  width: 100%;
+  height: 900px;
+
+  background: url("images/background/bg.png") center no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.intro {
+  padding-top: 277px;
+}
+
+.intro__text {
+
+}
+
+.uptext {
+  font-size: 50px;
+  font-weight: 900;
+  color: transparent;
+  background: linear-gradient(90.45deg, #E8B530 16.41%, #FFD360 31.24%, #E8B530 53.3%, #FFD567 71.17%, #E8B530 89.43%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+
+}
+
+.downtext {
+  font-size: 30px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.btn {
+  margin-top: 37px;
+}
+
+.order {
+  text-decoration: none;
+  color: #000;
+  padding: 17px 80px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: linear-gradient(96.02deg, #E8B530 13.04%, #FFD360 26.5%, #E8B530 46.52%, #FFD567 62.74%, #E8B530 79.31%);
+}
+
+.underblog {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 262px;
+  padding-left: 300px;
+}
+
+.inter-text {
+  display: flex;
+}
+
+.inter-text h1 {
+  font-size: 50px;
+  font-weight: 900;
+  margin: 0;
+  color: #fff;
+}
+
+.description {
+  font-size: 17px;
+  color: #fff;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-left: 12px;
+}
+
+/*============================================================================================================
+=                                     GROUP-----2
+=
+==============================================================================================================*/
+
+.group__2 {
+  background-image: url("images/background/patt.png");
+}
+
+.head__text {
+  padding-top: 50px;
+  padding-bottom: 15px;
+
+  text-align: left;
+  font-size: 20px;
+  font-weight: 900;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.services a {
+  padding: 10px 20px;
+  text-decoration: none;
+  background-color: #fff;
+  border-radius: 5px;
+  color: #000;
+  line-height: 50px;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+}
+
+.service__inner {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 20px;
+}
+
+.service__inner:last-child {
+  padding: 20px 0 0 0;
+}
+
+/*============================================================================================================
+=                                     GROUP-----3
+=
+==============================================================================================================*/
+
+.group__3 {
+  padding-top: 70px;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.content h2 {
+  margin-top: 115px;
+  margin-right: 38px;
+}
+
+.content__inner {
+  background: url("images/rect.png") no-repeat;
+  border-radius: 20px;
+  padding: 40px 19px 73px 32px;
+  margin-bottom: 27px;
+}
+
+.content__inner h2 {
+  color: #E8B530;
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 8px;
+
+}
+
+.content__inner p {
+  color: #fff;
+  font-size: 17px;
+  font-weight: 300;
+  margin: 0;
+}
